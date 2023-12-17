@@ -239,6 +239,15 @@ ul {
   background: var(--backgroundColor);
   border: 1px solid var(--grey-200);
 }
+/* alternative */
+/* .lorem-form input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: var(--borderRadius);
+  border-color: transparent;
+  background: var(--grey-300);
+  font-size: 1.25rem;
+} */
 
 .form-row {
   margin-bottom: 1rem;
@@ -299,6 +308,17 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* center */
+.section-center {
+  width: 80vw;
+  max-width: 40rem;
+  margin: 10rem auto;
+}
+.section-center h4 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* card */
